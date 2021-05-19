@@ -20,5 +20,8 @@ $aModule = array(
     'thumbnail' => 'out/pictures/thumb.png',
     'version' => '1.0.0',
     'author' => 'Karol',
+    'extend' => [
+        \OxidEsales\Eshop\Application\Model\Basket::class => Kulka\OxLearn\Model\Basket::class
+    ]
 
 );
