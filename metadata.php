@@ -20,4 +20,12 @@ $aModule = array(
     'thumbnail' => 'out/pictures/thumb.png',
     'version' => '1.0.0',
     'author' => 'Karol',
+    'settings'    => [
+        [
+            'group' => 'kulka',
+            'name'  => 'kulkaInput',
+            'type'  => 'str',
+            'value' => 'default',
+        ],
+    ],
 );
