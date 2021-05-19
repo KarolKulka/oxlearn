@@ -8,7 +8,7 @@ $sMetadataVersion = '2.0';
  * Module information
  */
 $aModule = array(
-    'id' => 'kulka_oxlearn',
+    'id' => 'oxlearn',
     'title' => [
         'de' => 'Nauka modulow DE',
         'en' => 'Nauka modulow EN',
@@ -20,12 +20,5 @@ $aModule = array(
     'thumbnail' => 'out/pictures/thumb.png',
     'version' => '1.0.0',
     'author' => 'Karol',
-    'settings'    => [
-        [
-            'group' => 'kulka',
-            'name'  => 'kulkaInput',
-            'type'  => 'str',
-            'value' => 'default',
-        ],
-    ],
+
 );
