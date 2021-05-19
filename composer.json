@@ -1,0 +1,14 @@
+{
+  "name": "kulka/oxlearn",
+  "description": "learning oxid modules",
+  "type": "oxideshop-module",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "extra": {
+    "oxideshop": {
+      "target-directory": "kulka/oxlearn"
+    }
+  },
+  "require": {
+  }
+}
