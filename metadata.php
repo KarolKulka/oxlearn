@@ -8,7 +8,7 @@ $sMetadataVersion = '2.0';
  * Module information
  */
 $aModule = array(
-    'id' => 'oxlearn',
+    'id' => 'kulka_oxlearn',
     'title' => [
         'de' => 'Nauka modulow DE',
         'en' => 'Nauka modulow EN',
