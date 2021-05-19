@@ -2,7 +2,7 @@
   "name": "kulka/oxlearn",
   "description": "learning oxid modules",
   "type": "oxideshop-module",
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "license": "proprietary",
   "extra": {
     "oxideshop": {
