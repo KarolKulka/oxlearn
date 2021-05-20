@@ -2,9 +2,7 @@
 
 namespace Kulka\OxLearn\Model;
 
-use OxidEsales\Eshop\Application\Model\BasketItem;
-
-class Basket extends Basket_parent
+class Basket extends Basket2_parent
 {
 
     public function addToBasket(
