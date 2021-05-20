@@ -17,4 +17,5 @@ class Basket extends Basket2_parent
 
         return parent::addToBasket($productID, $amount, $sel, $persParam, $shouldOverride, $isBundle, $oldBasketItemId);
     }
+
 }
