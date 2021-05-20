@@ -2,7 +2,7 @@
 
 namespace Kulka\OxLearn\Model;
 
-class Basket extends Basket2_parent
+class KulkaBasket extends KulkaBasket_parent
 {
 
     public function addToBasket(
