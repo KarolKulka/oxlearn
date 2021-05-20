@@ -1,5 +1,7 @@
 <?php
 
+namespace Kulka\OxLearn\Model;
+
 use OxidEsales\Eshop\Application\Model\BasketItem;
 
 class Basket extends Basket_parent
