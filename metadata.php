@@ -18,7 +18,7 @@ $aModule = array(
         'en' => 'To jest opis EN',
     ],
     'thumbnail' => 'out/pictures/thumb.png',
-    'version' => '1.0.0',
+    'version' => '0.10.0',
     'author' => 'Karol',
     'extend' => [
         \OxidEsales\Eshop\Application\Model\Basket::class => Kulka\OxLearn\Model\Basket::class
