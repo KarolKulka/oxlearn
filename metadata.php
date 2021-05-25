@@ -2,6 +2,7 @@
 /**
  * Metadata version
  */
+
 $sMetadataVersion = '2.0';
 
 /**
@@ -20,8 +21,11 @@ $aModule = array(
     'thumbnail' => 'out/pictures/thumb.png',
     'version' => '0.10.0',
     'author' => 'Karol',
+
     'extend' => [
-        \OxidEsales\Eshop\Application\Model\Basket::class => Kulka\OxLearn\Model\KulkaBasket::class
+        \OxidEsales\Eshop\Application\Model\Basket::class => Kulka\OxLearn\Model\KulkaBasket::class,
+
+        OxidEsales\EshopCommunity\Application\Controller\BasketController::class => Kulka\OxLearn\Controller\KulkaBasketController::class
     ]
 
 );
