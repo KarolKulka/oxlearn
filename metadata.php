@@ -26,6 +26,15 @@ $aModule = array(
         \OxidEsales\Eshop\Application\Model\Basket::class => Kulka\OxLearn\Model\KulkaBasket::class,
 
         OxidEsales\EshopCommunity\Application\Controller\BasketController::class => Kulka\OxLearn\Controller\KulkaBasketController::class
+    ],
+
+    'settings' => [
+        [
+            'group' => 'main',
+            'name' => 'kulkaOxlearnTestSettings',
+            'type' => 'str',
+            'value' => 'wartosc domyslna'
+        ]
     ]
 
 );
