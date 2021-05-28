@@ -41,7 +41,8 @@ $aModule = array(
         [
             'template' => 'widget/minibasket/minibasket.tpl',
             'block'    => 'widget_minibasket',
-            'file'     => 'views/blocks/minibasket_widget_minibasket.tpl',
+            'file'     => '/views/blocks/minibasket_widget_minibasket.tpl',
+            'position' => '1'
         ],
     ],
 
