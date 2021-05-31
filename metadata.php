@@ -3,6 +3,8 @@
  * Metadata version
  */
 
+use Kulka\OxLearn\Controller\KulkaRandomArticle;
+
 $sMetadataVersion = '2.0';
 
 /**
@@ -26,6 +28,10 @@ $aModule = array(
         \OxidEsales\Eshop\Application\Model\Basket::class => Kulka\OxLearn\Model\KulkaBasket::class,
 
         OxidEsales\Eshop\Application\Controller\BasketController::class => Kulka\OxLearn\Controller\KulkaBasketController::class
+    ],
+
+    'controllers' => [
+      'KulkaRandomArticle' => KulkaRandomArticle::class
     ],
 
     'settings' => [

@@ -1,2 +1,2 @@
-    test
 [{$smarty.block.parent}]
+test
