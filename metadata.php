@@ -31,12 +31,9 @@ $aModule = array(
     ],
 
     'controllers' => [
-      'KulkaRandomArticle' => KulkaRandomArticle::class
+      'luckypicker' => KulkaRandomArticle::class
     ],
 
-    'files' => [
-      'luckypicker'  => 'kulka/oxlearn/Controller/KulkaRandomArticle.php'
-    ],
 
     'settings' => [
         [
