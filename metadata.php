@@ -43,6 +43,10 @@ $aModule = array(
         ]
     ],
 
+    'templates' => [
+        'kulka_random_article.tpl' => '/views/tpl/random_article.tpl',
+    ],
+
     'blocks' => [
         [
             'template' => 'widget/minibasket/minibasket.tpl',
