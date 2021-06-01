@@ -26,7 +26,7 @@ $aModule = array(
         \OxidEsales\Eshop\Application\Model\Basket::class => Kulka\OxLearn\Model\KulkaBasket::class,
 
         OxidEsales\Eshop\Application\Controller\BasketController::class => Kulka\OxLearn\Controller\KulkaBasketController::class,
-        OxidEsales\Eshop\Application\Controller\FrontendController::class => Kulka\OxLearn\Controller\KulkaRandomArticle::class
+        //OxidEsales\Eshop\Application\Controller\FrontendController::class => Kulka\OxLearn\Controller\KulkaRandomArticle::class
 
     ],
 

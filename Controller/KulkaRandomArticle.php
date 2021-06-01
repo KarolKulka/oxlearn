@@ -2,7 +2,9 @@
 
 namespace Kulka\OxLearn\Controller;
 
-class KulkaRandomArticle extends KulkaRandomArticle_parent
+use OxidEsales\Eshop\Application\Controller\FrontendController;
+
+class KulkaRandomArticle extends FrontendController
 {
 
 }
