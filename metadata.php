@@ -44,7 +44,7 @@ $aModule = array(
     ],
 
     'templates' => [
-        'kulka_random_article.tpl' => '/views/tpl/kulka_random_article.tpl',
+        'kulka_random_article.tpl' => 'kulka/oxlearn/views/tpl/kulka_random_article.tpl',
     ],
 
     'blocks' => [
