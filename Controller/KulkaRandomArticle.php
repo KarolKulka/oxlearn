@@ -2,7 +2,7 @@
 
 namespace Kulka\OxLearn\Controller;
 
-class KulkaRandomArticle extends FrontendController
+class KulkaRandomArticle extends KulkaRandomArticle_parent
 {
 
 }
