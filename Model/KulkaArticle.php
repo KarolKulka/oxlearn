@@ -4,7 +4,7 @@ namespace Kulka\OxLearn\Model;
 
 class KulkaArticle extends KulkaArticle_parent
 {
-    public function loadRandomArticle(){
+    public function kulka_loadRandomArticle(){
         $sArticleTable = getViewName('oxarticles');
 
         $this->selectString(
