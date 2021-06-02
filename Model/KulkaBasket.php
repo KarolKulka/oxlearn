@@ -14,7 +14,6 @@ class KulkaBasket extends KulkaBasket_parent
         $isBundle = false,
         $oldBasketItemId = null
     ) {
-
         return parent::addToBasket($productID, $amount, $sel, $persParam, $shouldOverride, $isBundle, $oldBasketItemId);
     }
 
