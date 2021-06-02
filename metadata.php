@@ -15,8 +15,8 @@ $aModule = array(
         'en' => 'Module learn EN',
     ],
     'description' => [
-        'de' => 'To jest opis DE',
-        'en' => 'To jest opis EN',
+        'de' => 'Description DE',
+        'en' => 'Description EN',
     ],
     'thumbnail' => 'out/pictures/thumb.png',
     'version' => '0.10.0',
@@ -24,11 +24,8 @@ $aModule = array(
 
     'extend' => [
         \OxidEsales\Eshop\Application\Model\Basket::class => Kulka\OxLearn\Model\KulkaBasket::class,
-
         OxidEsales\Eshop\Application\Controller\BasketController::class => Kulka\OxLearn\Controller\KulkaBasketController::class,
-
-        OxidEsales\Eshop\Application\Model\ArticleList::class => Kulka\OxLearn\Model\KulkaArticleList::class,
-
+        OxidEsales\Eshop\Application\Model\Article::class => Kulka\OxLearn\Model\KulkaArticle::class,
     ],
 
     'controllers' => [
